@@ -1,0 +1,8 @@
+- name: Test sendEmail Function
+  endpoint: { function: send, metthod: POST }
+  request:
+    body:
+      email: test@sls.com
+      name: Serverless Test
+      message: Hello!
+  response: true
